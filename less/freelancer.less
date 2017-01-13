@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
 	text-align: center;
-	background: @theme-one;
+	background: @theme-four;
 	color: black;
 	.container {
 		padding-top: 100px;
@@ -46,7 +46,7 @@ header {
 	}
 	.intro-text {
 		.mission {
-			font-size: 3.25em;
+			font-size: 2.0em;
 			font-weight: 300;
 		}
 	}
@@ -62,7 +62,7 @@ header {
 }
 
 .navbar-custom {
-	background: @theme-three;
+	background: @theme-two;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -85,7 +85,7 @@ header {
 			a {
 				color: white;
 				&:hover {
-					color: @theme-two;
+					color: @theme-one;
 					outline: none;
 				}
 				&:focus,
@@ -95,13 +95,13 @@ header {
 			}
 			&.active {
 				a {
-					color: white;
-					background: @theme-two;
+					color: black;
+					background: @theme-one;
 					&:hover,
 					&:focus,
 					&:active {
-						color: white;
-						background: @theme-two;
+						color: black;
+						background: @theme-one;
 					}
 				}
 			}
@@ -165,49 +165,20 @@ section.success {
 }
 
 #portfolio {
-    .portfolio-item {
-        margin: 0 0 15px;
-        right: 0;
-        .portfolio-link {
-            display: block;
-            position: relative;
-            max-width: 400px;
-            margin: 0 auto;
-            .caption {
-                background: fade(@theme-success, 90%);
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                opacity: 0;
-                transition: all ease 0.5s;
-                -webkit-transition: all ease 0.5s;
-                -moz-transition: all ease 0.5s;
-                &:hover {
-                    opacity: 1;
-                }
-                .caption-content {
-                    position: absolute;
-                    width: 100%;
-                    height: 20px;
-                    font-size: 20px;
-                    text-align: center;
-                    top: 50%;
-                    margin-top: -12px;
-                    color: white;
-                    i {
-                        margin-top: -12px;
-                    }
-                    h3,
-                    h4 {
-                        margin: 0;
-                    }
-                }
-            }
-        }
-    }
-    * {
-        z-index: 2;
-    }
+	background: @theme-one;
+	.portfolio-item {
+		margin: 0 0 15px;
+		right: 0;
+		img {
+			border-radius: 50%;
+		}
+		p {
+			margin-top: 20px;
+		}
+	}
+	* {
+		z-index: 2;
+	}
 }
 
 @media(min-width:767px) {
@@ -282,14 +253,14 @@ footer {
 	}
 	.footer-above {
 		padding-top: 50px;
-		background-color: @theme-primary;
+		background-color: @theme-two;
 	}
 	.footer-col {
 		margin-bottom: 50px;
 	}
 	.footer-below {
 		padding: 25px 0;
-		background-color: darken(@theme-primary, 5%);
+		background-color: darken(@theme-two, 5%);
 	}
 }
 
@@ -313,12 +284,12 @@ footer {
 }
 
 .btn-primary {
-	.button-variant(white; @theme-primary; @theme-primary);
+	.button-variant(white; @theme-two; @theme-primary);
 	font-weight: 700;
 }
 
 .btn-success {
-	.button-variant(white; @theme-success; @theme-success);
+	.button-variant(white; @theme-two; @theme-success);
 	font-weight: 700;
 }
 

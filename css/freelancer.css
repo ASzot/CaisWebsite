@@ -35,7 +35,7 @@ h6 {
 }
 header {
   text-align: center;
-  background: #ecf0f1;
+  background: #ffffff;
   color: black;
 }
 header .container {
@@ -47,7 +47,7 @@ header img {
   margin: 0 auto 20px;
 }
 header .intro-text .mission {
-  font-size: 3.25em;
+  font-size: 2.0em;
   font-weight: 300;
 }
 @media (min-width: 768px) {
@@ -57,7 +57,7 @@ header .intro-text .mission {
   }
 }
 .navbar-custom {
-  background: #7f8c8d;
+  background: #9c0404;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -82,7 +82,7 @@ header .intro-text .mission {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #9c0404;
+  color: #ecf0f1;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -90,14 +90,14 @@ header .intro-text .mission {
   color: white;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #9c0404;
+  color: black;
+  background: #ecf0f1;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #9c0404;
+  color: black;
+  background: #ecf0f1;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -150,45 +150,18 @@ section.success {
     padding-top: 75px;
   }
 }
+#portfolio {
+  background: #ecf0f1;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
+#portfolio .portfolio-item img {
+  border-radius: 50%;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(236, 240, 241, 0.9);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-}
-#portfolio .portfolio-item .portfolio-link .caption:hover {
-  opacity: 1;
-}
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  margin-top: -12px;
-  color: white;
-}
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-  margin-top: -12px;
-}
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-  margin: 0;
+#portfolio .portfolio-item p {
+  margin-top: 20px;
 }
 #portfolio * {
   z-index: 2;
@@ -255,14 +228,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #95a5a6;
+  background-color: #9c0404;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #87999a;
+  background-color: #830303;
 }
 .btn-outline {
   color: white;
@@ -282,7 +255,7 @@ footer .footer-below {
 }
 .btn-primary {
   color: white;
-  background-color: #95a5a6;
+  background-color: #9c0404;
   border-color: #95a5a6;
   font-weight: 700;
 }
@@ -292,7 +265,7 @@ footer .footer-below {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #798d8f;
+  background-color: #6a0303;
   border-color: #74898a;
 }
 .btn-primary:active,
@@ -315,16 +288,16 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #95a5a6;
+  background-color: #9c0404;
   border-color: #95a5a6;
 }
 .btn-primary .badge {
-  color: #95a5a6;
+  color: #9c0404;
   background-color: white;
 }
 .btn-success {
   color: white;
-  background-color: #ecf0f1;
+  background-color: #9c0404;
   border-color: #ecf0f1;
   font-weight: 700;
 }
@@ -334,7 +307,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #cfd9db;
+  background-color: #6a0303;
   border-color: #c9d4d7;
 }
 .btn-success:active,
@@ -357,11 +330,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #ecf0f1;
+  background-color: #9c0404;
   border-color: #ecf0f1;
 }
 .btn-success .badge {
-  color: #ecf0f1;
+  color: #9c0404;
   background-color: white;
 }
 .btn-social {
