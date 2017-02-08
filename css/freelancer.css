@@ -52,7 +52,7 @@ header .intro-text .mission {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 100px;
   }
 }
@@ -111,6 +111,9 @@ header .intro-text .mission {
   color: white;
   border-color: #ecf0f1;
 }
+.navbar-custom .home-link {
+  background: url('/img/usc-logo.png');
+}
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 25px 0;
@@ -159,6 +162,7 @@ section.success {
 }
 #portfolio .portfolio-item img {
   border-radius: 50%;
+  height: 220px;
 }
 #portfolio .portfolio-item p {
   margin-top: 20px;
@@ -225,6 +229,12 @@ footer {
 }
 footer h3 {
   margin-bottom: 30px;
+}
+footer a {
+  color: #efefef;
+}
+footer a:hover {
+  color: #ffffff;
 }
 footer .footer-above {
   padding-top: 50px;

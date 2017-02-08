@@ -1,0 +1,19 @@
+/* USC logo Requirements */
+h1#usclogo {float: right;width: 198px;height: 60px;margin: 0;}
+h1#usclogo a {display: block;width: 176px;height: 54px;padding:11px;background-color:#900;background:url(http://cais.usc.edu/images/usc-shield-name-white.png) 0 11px no-repeat;text-indent: -9999px;}
+.navbar-default {background-color: #900!important; border-color: #030033;}
+.fontSizeM{font-size: 14px; color:white;}
+.red-color{ background-color: red;}
+
+/*Top Navigation Bar */
+.displayUL{list-style:none;position:absolute;}
+.innerList{display:inline-block; margin-top: 15px;margin-left: 30px;}
+.listFontStyle{color:white;font-size: 1.3em;}
+.dropdown-menu>li>a{background-color: #900;padding: 13px 4px!important;color:white!important;}
+.dropdown-menu:hover {background-color: #900;}
+
+/*HomePage*/
+.lineWidth{width:67%;}
+.separator {width:67%; border: none;height: 1px; color: #333; background-color: #333; }
+.insideContent{margin-top: 20px;font-size: medium;}
+.mission{margin-left: 22%;}

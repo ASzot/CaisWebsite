@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>CAIS</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,60 +28,47 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <link href='css/main_page.css' rel='stylesheet' type='text/css'>
 </head>
 
 <body id="page-top" class="index">
+    <nav class="navbar navbar-default navbar-static-top red-color">
+        <div class="col-8-md col-8-xs ml5">
+            <ul class ="displayUL">
+                <a href="HomePage.htm"> <li class="innerList listFontStyle"> Home</li></a>
+                <a href ="lectureSeries.htm"><li class="innerList listFontStyle"> Schedule </li></a>
+                <a href ="lecture.htm"><li class="innerList listFontStyle"> Lectures </li></a>
+                <a href="news.htm"> <li class="innerList listFontStyle"> News</li></a>
+                <a href ="projects.htm"><li class="innerList listFontStyle"> Projects </li></a>
+                <div class="dropdown innerList">
+                    <span class=" listFontStyle dropdown-toggle" data-toggle="dropdown">Center Events
+                        <span class="caret"></span>
+                    </span>
+                    <ul class="dropdown-menu">
+                        <li class="listFontStyle"><a href="mainPictureEvents.htm">Launch Events</a></li>
+                    </ul>
+                </div>
+                <a href ="people.htm"><li class="innerList listFontStyle"> People </li></a>
 
+                <a href="https://usccareers.usc.edu/job/los-angeles/center-operations-coordinator-usc-center-for-artificial-intelligence-in-society/1209/3468316" target="_blank"> <li class="innerList listFontStyle"> Open Positions</li></a>
+            </ul>
+        </div>
+        <div class="col-4-md col-4-xs">
+            <h1 id="usclogo"><a href="http://www.usc.edu/">University of Southern California</a></h1>
+        </div>
+    </nav>
 
-    <!-- Navigation -->
-    <!-- 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <!--
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                
-            </div>
-
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <!--
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        <!-- </div>
-        <!-- /.container-fluid -->
-   <!-- </nav> -->
-  
     <!-- Header -->
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/CAIS%20Logo%20Final.png" alt="">
+                    <img class="img-responsive" src="img/logo.png" alt="">
                     
                     <div class="intro-text" style="margin-top:6%">
                         
                         <span class="mission">
                            CAIS++ (pronounced "case plus-plus") is a student organization that serves as the student branch of the  Center for Artificial Intelligence in Society (CAIS). Through our partnership with the USC School of Social Work, CAIS++ connects students across disciplines to promote the development A.I. applications for social good.
-
-
-
                         </span>
                     </div>
                 </div>
@@ -100,21 +87,36 @@
             <div class="row" style="margin-top: 50px">
                 <div class="col-sm-4 portfolio-item">
                     <img src="img/portfolio/research.jpg" class="img-responsive" alt="">
-                    <h2 style="margin-top:50px; text-align:center">Research for Social Good</h2>
-                    <p>Our goal is to get engineering students involved in research for social good, and drive creative solutions for the important problems which those who less priveleged than us face. We also encourage engineering students to move beyond a technical boundary and follow up with Social Work presenters to collaborate on research.</p>
-                    
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <img src="img/portfolio/help.png" class="img-responsive" alt="">
-                    <h2 style="margin-top:50px; text-align:center">Collaborate Across Disciplines</h2>
-                    <p>Through general meetings with students from both the Viterbi school of Engineering and the School of Social Work, we strive to find ways in which Artificial Intelligence and Social Work - two seeminly different fields - can intersect and create an impact in the community surrounding USC. </p>
+                    <img src="img/portfolio/help.jpg" class="img-responsive" alt="">
                 </div>
                 <div class="col-sm-4 portfolio-item">
                     <img src="img/portfolio/ai.png" class="img-responsive" alt="">
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <h2 style="margin-top:50px; text-align:center">Research for Social Good</h2>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <h2 style="margin-top:50px; text-align:center">Collaborate Across Disciplines</h2>
+                </div>
+                <div class="col-sm-4 portfolio-item">
                     <h2 style="margin-top:50px; text-align:center">Make A.I Accessible</h2>
-                    <p>Our aim is to raise awareness about the positive impacts of A.I. through speaker events and presentations.
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-sm-4 portfolio-item">
+                    <p>Our goal is to get engineering students involved in research for social good, and to drive innovative solutions to wicked problems in society. We encourage engineering students to move beyond a purely technical boundary and to follow up with Social Work presenters by collaborating on research projects.</p>
                     
-                    Our goal is to get engineering students involved in research for social good, and to drive innovative solutions to wicked problems in society. We encourage engineering students to move beyond a purely technical boundary and to follow up with Social Work presenters by collaborating on research projects.</p>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <p>Through general meetings with students from both the Viterbi school of Engineering and the School of Social Work, we strive to find ways in which Artificial Intelligence and Social Work - two seeminly different fields - can intersect and create an impact in the community surrounding USC. </p>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <p>While Artificial Intelligence has an amazing potential for social good, it unfortunately often evokes images of "Skynet" and computers taking over the world. Our aim is to raise awareness about the positive impacts of A.I. research through publicity like speaker events and presentations.</p>
                 </div>
             </div>
         </div>
@@ -171,7 +173,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; CAIS 2017 
+                        Copyright &copy; CAIS 2017; <a href='mailto:caisplusplus@gmail.com'>caisplusplus@gmail.com</a>
                     </div>
                 </div>
             </div>
